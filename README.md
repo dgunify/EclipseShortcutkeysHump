@@ -1,7 +1,7 @@
 # EclipseShortcutkeysHump
 Eclipse Shortcutkeys Hump convert ，userId convert user_id and user_id convert userId
 
-				字符骆驼命名转换快捷键
+				字符骆驼命名转换快捷键,驼峰命名快捷键
 一、使用目的
 1.为了方便更好的开发，在我们页面或java实体类，一般命名都是userId，而数据库则是user_id。
 2.那么在mybatis的sql里写sql时一会儿需要使用user_id,一会儿需要使用userId。例如select user_id as userId from user where user_id = #{userId}。这样写代码会很麻烦，我直接写成一样的，然后使用快捷去转换为对应的。如下案例
